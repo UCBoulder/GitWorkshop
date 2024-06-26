@@ -14,7 +14,12 @@ set(earth, 'CData', topo);
 % Set axis properties
 axis equal;
 axis vis3d;
-set(gca, 'Color', 'k');
+set(gca, 'Color', [0 0.5 1]); % Set background color to blue
+
+% Set viewing limits bigger than the Earth
+xlim([-1.5 1.5]);
+ylim([-1.5 1.5]);
+zlim([-1.5 1.5]);
 
 % Add lighting
 light('Position', [1 0 1], 'Style', 'infinite');
