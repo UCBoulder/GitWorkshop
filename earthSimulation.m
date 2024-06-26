@@ -24,11 +24,10 @@ zlim([-1.5 1.5]);
 % Add lighting
 light('Position', [1 0 1], 'Style', 'infinite');
 lighting gouraud;
-<<<<<<< HEAD
-display("this is a test, testing 123_ 4562312312312")
-=======
+
+
 display("this is a test")
->>>>>>> student1
+
 
 % Rotate the view
 for angle = 1:360
