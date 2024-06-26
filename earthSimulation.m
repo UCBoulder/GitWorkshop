@@ -26,7 +26,7 @@ light('Position', [1 0 1], 'Style', 'infinite');
 lighting gouraud;
 
 
-display("this is a test")
+display("this is a test, 123")
 
 
 % Rotate the view
